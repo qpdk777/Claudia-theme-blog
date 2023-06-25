@@ -9,6 +9,7 @@
     "server": "hexo server",
     "start": "hexo server",
     "dev": "hexo clean && hexo g && hexo s --debug"
+    "netlify": "npm run clean && npm run build"
   },
   "hexo": {
     "version": "5.2.0"
